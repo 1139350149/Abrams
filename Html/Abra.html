@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Riztark PMC</title>
+    <link rel="stylesheet" href="../Css%20Dictionary/Abrams.css" type="text/css" />
+    <script src="../JavaScript/jquery-3.3.1.min.js" type="text/javascript" language="JavaScript"></script>
+    <script language="JavaScript" src="../JavaScript/Abrams.js" type="text/javascript" defer="defer"></script>
+    <script language="JavaScript" src="../JavaScript/TurningPictures.js" type="text/javascript" defer="defer"></script>
+</head>
+<body onload="TimeShow()">
+    <div class="header">
+        <img src="../img/favicon.png" alt="Riztark's logo" class="logo1">
+        <div class="welcome1">
+        </div>
+        <p class="store">R&Z Web Store</p>
+       <ul class="nav">
+           <li class="ThisPage"><a href="#">HOME</a></li>
+           <li><a href="MBTCategory1.html" id="MBT" onmouseover="showMenu_0()" onmouseleave="hideMenu_0()">MBT</a></li>
+           <li><a href="AR.html" onmouseover="showMenu_1()" onmouseleave="hideMenu_1()">AR</a> </li>
+           <li><a href="Company.html">COMPANY</a> </li>
+       </ul>
+        <ul class="menu" onmouseleave="hideMenu_0()" onmouseover="showMenu_0()">
+            <li>
+                <a href="AbramsM1A2.html">Abrams M1A2</a>
+            </li>
+            <li>
+                <a href="Leopard2A7.html">Leopard2A7</a>
+            </li>
+        </ul>
+        <ul class="menu_1" onmouseover="showMenu_1()" onmouseleave="hideMenu_1()">
+            <li>
+                <a href="HK416.html">HK416</a><br>
+                <a href="Scar.html">Scar</a><br>
+                <a href="M4%20Series.html">M4 series</a>
+            </li>
+        </ul>
+    </div>
+    <div class="total">
+        <div class="body">
+            <p class="welcome">R&Z Private Military Company / Contractor</p>
+            <div class="turning">
+                <div class="container">
+                    <a href="MBTCategory1.html">
+                        <img src="../img/turning1.jpg" alt="MBT Tank" title="Click to MBT Page">
+                        <!--<p class="emmm">Russian MBT</p>-->
+                    </a>
+                    <a href="AR.html">
+                        <img src="../img/turning2.jpg" alt="M1 Rifle" title="Click to AR Page">
+                        <!--<p class="emmm">M1 Caliaber.30</p>-->
+                    </a>
+                    <a href="MBTCategory1.html">
+                        <img src="../img/turning3.jpg" alt="MBT Tank" title="Click to MBT Page">
+                        <!--<p class="emmm">Russian MBT</p></a>-->
+                    </a>
+                </div>
+                <div class="buttons">
+                    <span class="Point" onclick="Point(1)" onmouseenter="StopTuring()" onmouseleave="RestartTurning()">1</span>
+                    <span class="Point" onclick="Point(2)" onmouseover="StopTuring()" onmouseleave="RestartTurning()">2</span>
+                    <span class="Point" onclick="Point(3)" onmouseover="StopTuring()" onmouseleave="RestartTurning()">3</span>
+                </div>
+                <a href="javascript:" class="arrow arrow_left" onmouseover="StopTuring()" onmouseleave="RestartTurning()" >&lt;</a>
+                <a href="javascript:" class="arrow arrow_right" onmouseover="StopTuring()" onmouseleave="RestartTurning()" >&gt;</a>
+            </div>
+            <div class="motto">
+                <p class="motto1">
+                    COMMITMENT TO EXCELLENCE.
+                </p>
+            </div>
+            <div class="motto">
+                <p class="motto2" onmouseover="this.style.color= 'deepskyblue'" onmouseout="this.style.color = '#ccc'">Products</p>
+            </div>
+            <div class="products">
+                <div class="products1">
+                    <a href="../img/MBT.jpg" title="click to see the clear picture"><img src="../img/MBT.jpg" width="256" height="144" class="proPic"></a>
+                        <p class="category"><a href="MBTCategory1.html">MBT</a></p>
+                    <p class="introduce">
+                        Main Battle Tank (MBT) is a tank with the ability to attack the enemy positively and frontally.
+                        It achieves the best balance of cross-country performance, firepower and defense.
+                        Its firepower and armor protection are up to or above the level of heavy tanks in the past.
+                        At the same time, it has the characteristics of good cross-country performance of medium-sized tanks.
+                        It is the basic equipment of modern armored soldiers and the main assault weapons in ground operations.
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="../img/AR.jpg"><img src="../img/AR.jpg" title="click to see the clear picture" width="320" height="180" class="proPic"></a>
+                    <p class="category"><a href="AR.html">AR Family</a></p>
+                    <p class="introduce">
+                        Assault rifle is based on the requirements of modern warfare,
+                        which successfully combines the best tactical and technical performance inherent in rifle and submachine gun.
+                        Nowadays, it refers to all kinds of automatic/semi-automatic/point-shooting rifles,
+                        which can fire intermediate power bullets or small caliber rifles with an effective range of about 300-400 meters.
+                        Its characteristics are high firing speed, stable firing, moderate recoil force, short and light gun body.
+                        It is an automatic rifle with the intense firepower of a submachine gun and the shooting power close to that of an ordinary rifle.
+                    </p>
+                </div>
+            </div>
+            <div class="echelon">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <img src="../img/facebook.png" class="target" width="40" height="40">
+                <img src="../img/google.png" class="target" width="40" height="40">
+                <img src="../img/Twitter.png" class="target" width="40" height="40">
+                <img src="../img/Youtube.png" class="target" width="40" height="40">
+                <p class="prompt">
+                    Sign up for offers and exclusive news!
+                </p>
+                <form class="sign_up">
+                    <input type="email" name="username" placeholder="E-mail" id="information" onblur="check_empty()">
+                    <button value="submit" class="sign" onclick="check_empty()">Sign Up <span class="hiddenArrow">&gt;</span></button>
+                </form>
+                <p id="time"></p>
+                <p><small rel="copyright" >@ R&Z PMC 2019</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

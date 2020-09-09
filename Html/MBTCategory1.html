@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abrams</title>
+    <link rel="stylesheet" href="../Css%20Dictionary/Abrams.css">
+    <script language="JavaScript" src="../JavaScript/Abrams.js" type="text/javascript" defer="defer"></script>
+    <script language="JavaScript" src="../JavaScript/CheckCategory.js" defer="defer" type="text/javascript"></script>
+</head>
+<body>
+    <div class="header">
+        <ul class="nav">
+            <li><a href="Abra.html">HOME</a></li>
+            <li class="ThisPage"><a href="#"  onmouseleave="hideMenu_0()" onmouseover="showMenu_0()">MBT</a></li>
+            <li><a href="AR.html" onmouseover="showMenu_1()" onmouseleave="hideMenu_1()">AR</a> </li>
+            <li><a href="Company.html">COMPANY</a></li>
+        </ul>
+        <ul class="menu" onmouseleave="hideMenu_0()" onmouseover="showMenu_0()">
+            <li>
+                <a href="AbramsM1A2.html">Abrams M1A2</a>
+            </li>
+            <li>
+                <a href="Leopard2A7.html">Leopard2A7</a>
+            </li>
+        </ul>
+        <ul class="menu_1" onmouseover="showMenu_1()" onmouseleave="hideMenu_1()">
+            <li>
+                <a href="HK416.html">HK416</a><br>
+                <a href="Scar.html">Scar</a><br>
+                <a href="M4%20Series.html">M4 series</a>
+            </li>
+        </ul>
+    </div>
+<div class="total">
+    <div class="body">
+        <img src="../img/favicon%20(1).ico" alt="Riztark's logo" class="logo1">
+        <div class="motto">
+            <p class="motto1">
+                As a PMC , we have a lot of weaponry and security services.
+            And you can learn about the main battle tanks we offer here.
+            </p>
+        </div>
+        <div class="motto">
+            <p class="motto2" onmouseover="this.style.color = 'deepskyblue'" onmouseout="this.style.color = '#ccc'">
+                Vehicle inventory
+            </p>
+        </div>
+        <div class="exhibition">
+            <form>
+                <select id="learn">
+                    <option value="" selected="selected" style="display: none"></option>
+                    <option value="AbramsM1A2">Abrams M1A2</option>
+                    <option value="Leopard2A7">Leopard 2A7</option>
+                </select>
+                <button class="search" value="Search"
+                        onmouseover = "this.style.backgroundImage = '-webkit-linear-gradient(right,greenyellow,#fd8403,#56B4DC)';changeBtn();this.style.boxShadow = '0 0 10px #000'"
+                        onmouseout = "this.style.backgroundImage = '';changeBack(); this.style.width = 75 + 'px';this.style.boxShadow = null"
+                        onclick="search()">
+                    Search
+                </button>
+            </form>
+        </div>
+        <div class = "ShowDetailVehicle Abrams">
+            <a href="../img/MBT.jpg" title="Click to see clear picture" target="_parent"><img src="../img/MBT.jpg" height="288" width="512"></a>
+            <p>
+                Main Gun: 44 times caliber M256 120 mm sliding bore gun of RH120<br>
+                Engine: AGT-1500 gas turbine<br>
+                Vehicle Height: 2.47M<br>
+                <a href="AbramsM1A2.html" >Learn More</a>
+            </p>
+        </div>
+        <div class = "ShowDetailVehicle Leo">
+            <a href="../img/Leopard2_in_the_snow.jpg" title="Click to see clear picture" target="_parent"><img src="../img/Leopard2_in_the_snow.jpg" height="317" width="512"></a>
+            <p>
+                Main Gun: 88-caliber Rh120-L88 sliding-bore gun<br>
+                Engine: MB873Ka-501 4-stroke 12-cylinder V-type 90 degree angle water-cooled
+                precombustion chamber turbocharged intercooled diesel engine (3000 horsepower)<br>
+                <a href="Leopard2A7.html" >Learn More</a>
+            </p>
+        </div>
+        <div class="echelon">
+        </div>
+    </div>
+    <div class="footer">
+        <p class="prompt">
+            Fearlessness is the mother of success.
+        </p>
+        <p>
+            <small rel="copyright">@PMC 2019</small>
+        </p>
+    </div>
+</div>
+</body>
+</html>
