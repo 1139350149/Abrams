@@ -1,0 +1,9 @@
+.AtLast1{
+    background: -webkit-linear-gradient(left,white,deepskyblue,#fd8403);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Adobe Garamond Pro Bold";
+    text-align: center;
+}

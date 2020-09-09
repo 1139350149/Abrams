@@ -1,0 +1,33 @@
+.Telling_P{
+    color: #ccc;
+    line-height: 2em;
+    font-size: small;
+    font-weight: 700;
+    font-family: "Adobe Garamond Pro Bold";
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+.Telling{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+}
+.Company{
+    line-height: 2em;
+    font-size: larger;
+    font-family: "Adobe Garamond Pro Bold";
+    font-weight: 900;
+    background: -webkit-linear-gradient(left,#aa1122,red,darkred);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footing{
+    background: -webkit-linear-gradient(left,orangered,gold);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin:10px auto;
+    width:70%;
+    height: auto;
+}

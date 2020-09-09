@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HK416{
+    padding: 10px;
+    float:left;
+    width: 32%;
+    height: auto;
+    background: -webkit-linear-gradient(top,#ccc,#56B4DC);
+}
+.HK416>p {
+    padding: 10px;
+    color: blueviolet;
+    font-weight: 700;
+    font-size: large;
+    font-family: "Adobe Garamond Pro Bold";
+}
+#HK416_Choice{
+    padding: 5px;
+    background: -webkit-linear-gradient(left,#009f95,#40AFFE,#FD482C);
+}
+#HK416_Choice:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(right,#009f95,#40AFFE,#FD482C);
+    box-shadow: 1px 1px 3px black;
+}
+.M4_series{
+    padding: 10px;
+    width: 32%;
+    height: auto;
+    float:left;
+    background: -webkit-linear-gradient(top,grey,#ccc,white);
+}
+.M4_series >p{
+    padding: 10px;
+    color: #aa1122;
+    font-weight: 700;
+    font-size: large;
+    font-family: "Adobe Garamond Pro Bold";
+}
+
+.Scar{
+    padding: 10px;
+    height: auto;
+    width: 32%;
+    float:left;
+    background: -webkit-linear-gradient(top,deepskyblue,white);
+}
+.Scar >p{
+    padding: 10px;
+    color: orangered;
+    font-weight: 700;
+    font-size: large;
+    font-family: "Adobe Garamond Pro Bold";
+}
+#Scar_Choice{
+    padding: 5px;
+    background: -webkit-linear-gradient(left,#fd8403,deepskyblue,#ccc);
+
+}
+#Scar_Choice:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(right,#fd8403,deepskyblue,#ccc);
+    box-shadow: 1px 1px 3px black;
+}
+.title{
+    text-align: center;
+    background: -webkit-linear-gradient(top,gold,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Adobe Garamond Pro Bold";
+}
+@keyframes Rifle{
+    0% {left: 269px}
+    100% {left: 90%}
+}
+@-webkit-keyframes Rifle {
+    0% {left: 25%}
+    100% {left: 90%}
+}
+.ammunition{
+    animation: ease-in Rifle 2s infinite;
+    -webkit-animation: ease-in Rifle 2s infinite;
+    position: relative;
+    top:-50px;
+    left: 269px;
+}
+@keyframes ShellWithdrawal_X {
+    0% { transform: translateX(-30px);
+    }
+    25% { transform: translateX(-100px);}
+    50% { transform: translateX(-100px); opacity: 1;}
+    100% { transform: translateX(-100px); opacity: 0;}
+}
+
+@keyframes ShellWithdrawal_Y {
+    0% { transform: translateY(90px);
+    }
+    25%{ transform: translateY(100px)}
+    50% { transform: translateY(100px); }
+    100%{ transform: translateY(100px);}
+}
+
+.animation_1 .bullet{
+    animation: linear ShellWithdrawal_X 2s infinite;
+    -webkit-animation: linear ShellWithdrawal_X 2s infinite;
+    position: relative;
+    bottom: 50px;
+    left: 110px;
+}
+.animation_1{
+    width: 3%;
+    height: 20px;
+    animation: ease-in ShellWithdrawal_Y 2s infinite;
+}
+.ShowPic{
+    margin: 0 auto;
+    height: auto;
+    width: 60%;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+}
+.MakeAChoice{
+    border: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+}
+#M4_Choice{
+    padding: 5px;
+    background: -webkit-linear-gradient(left,#aa1122,gold,yellow);
+
+}
+#M4_Choice:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(right,#aa1122,gold,yellow);
+    box-shadow: 1px 1px 3px black;
+}
+
+.echelon{
+    padding-top: 10px;
+    margin: 0 auto;
+    width:400px;
+    height:10px;
+    border-width:0 45px 50px 45px;
+    border-style:none solid solid;
+    border-color:transparent transparent rgba(0.8,0.8,0.8,0.65);
+}
+
+.footer{
+    padding-top: 30px;
+    width:100%;
+    background:-webkit-linear-gradient(top,rgba(0.8,0.8,0.8,0.3),gray 100%);
+    height: auto;
+}
+.footer-content{
+    height:auto;
+    border-top: 2px solid #ccc;
+    width:70%;
+    margin: 0 auto;
+}
+.prompt{
+    background: -webkit-linear-gradient(top,white,deepskyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: white;*/
+    font-size:1.5em;
+    font-weight: 800;
+    font-family: "Adobe Garamond Pro";
+    margin:0 auto 5px ;
+    text-align: center;
+}
+[rel=copyright] {
+    position: relative;
+    left: 90%;
+    bottom:5%;
+}

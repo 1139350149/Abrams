@@ -1,0 +1,106 @@
+p{
+    text-indent: 2em;
+}
+
+.LeftContent{
+    background: white;
+    width: 70%;
+    float:left;
+    margin: 0 auto;
+    height:auto;
+    border-left: 1px solid #ccc;
+    border-right: 3px dashed #ccc;
+    padding: 10px;
+}
+
+.backGro{
+    width: 100%;
+    margin-right: 10px;
+    clear:both;
+    overflow:auto;
+    background: -webkit-linear-gradient(top,grey,#ccc,white);
+    height:80%;
+}
+
+.LeftContent >p {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: 800;
+    border-bottom: 2px #ccc dashed;
+}
+
+.title{
+    font-weight: 900;
+    font-size: larger;
+    color: rgba(0.123,0.888,0.888,0.8);
+}
+
+.blueBox{
+    margin-top: 10px;
+    height:1.5em;
+    width:1em;
+    background-color: grey;
+    float: left;
+}
+
+.picShow{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.picShow >img{
+    filter: drop-shadow(3px 3px 5px black);
+}
+
+.picShow >p{
+    margin: 0 auto;
+    width: auto;
+    color: #aa1122;
+    font-size: medium;
+}
+
+.SorrowCausedByWar{
+    background: -webkit-linear-gradient(left,gold,#aa1122,red);
+    font-weight: 900;
+    font-size: larger;
+    color: darkred;
+}
+.aside{
+    font-weight: 700;
+    font-size: medium;
+    width: 20%;
+    float:left;
+    height:auto;
+    background: white;
+    border-right: 1px solid black;
+    vertical-align: bottom;
+}
+
+.aside >p{
+    margin:10px auto;
+    padding: 5px;
+    text-indent: 2em;
+}
+
+.aside img{
+    filter:drop-shadow(3px 3px 5px black);
+    margin: 10px auto;
+}
+.foot{
+    background:  -webkit-linear-gradient(top,rgba(0.8,0.8,0.8,0.7),#ccc);
+}
+.AtLast{
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    padding: 10px;
+    text-indent: 0;
+}
+
+.BypassTheWar{
+    background:  -webkit-linear-gradient(left,greenyellow,blue,orange);
+}
